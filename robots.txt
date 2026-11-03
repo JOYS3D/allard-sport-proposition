@@ -1,0 +1,6 @@
+# Maquette non publiée : tout est bloqué. À la mise en ligne, remplacer par :
+# User-agent: *
+# Allow: /
+# Sitemap: https://allardsport.com/sitemap.xml
+User-agent: *
+Disallow: /
