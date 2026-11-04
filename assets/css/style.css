@@ -557,3 +557,11 @@ h3, .t-l {
 .etapes .chiffre { font-size: 44px; color: var(--orange); }
 .etapes h3 { font-size: 24px; font-stretch: 125%; }
 .etapes p { margin: 0; opacity: .88; font-size: 16.5px; }
+
+/* « Sport Équipement » juste après le logo (demande de Yanis, 04/11) */
+.logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+.logo__nom { font-family: "Archivo", sans-serif; font-weight: 800; font-style: italic; font-stretch: 112%; text-transform: uppercase; letter-spacing: .05em; font-size: 17px; line-height: 1; color: var(--vert); white-space: nowrap; transform: translateY(5px); }
+.accueil .site-head .logo__nom { color: #fff; }
+@media (max-width: 420px) { .logo__nom { font-size: 13px; letter-spacing: .03em; } .logo img { height: 28px; } }
+.burger { flex: none; }
+@media (max-width: 420px) { .logo { gap: 7px; min-width: 0; } .logo__nom { font-size: 12px; } .logo img { height: 26px; } }
